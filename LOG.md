@@ -8,3 +8,8 @@ I will commit every day for 120 days.
 **Day 2 - May 5, 2026**  
 Made my repo public today so I can also work toward the 50 and 100 public commits stamps.  
 Continuing the streak!
+
+
+**Day 3 - May 6, 2026**  
+Day 3 of consistent commits. Repo is public and progressing toward 50 and 100 commits stamps too.
+
