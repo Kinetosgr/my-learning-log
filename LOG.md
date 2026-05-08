@@ -17,3 +17,8 @@ Day 3 of consistent commits. Repo is public and progressing toward 50 and 100 co
 **Day 4 - May 7, 2026**  
 Added basic project structure and started planning the architecture for a small CLI tool.  
 Reviewed some open source repos for best practices on logging and modular design.
+
+
+**Day 5 - May 8, 2026**  
+Implemented the core CLI argument parser using argparse.  
+Added basic command structure (`--help`, `init`, `status`) and tested it locally.
