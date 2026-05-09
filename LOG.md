@@ -22,3 +22,8 @@ Reviewed some open source repos for best practices on logging and modular design
 **Day 5 - May 8, 2026**  
 Implemented the core CLI argument parser using argparse.  
 Added basic command structure (`--help`, `init`, `status`) and tested it locally.
+
+
+**Day 6 - May 9, 2026**  
+Added proper error handling for invalid arguments and improved CLI help output.  
+Started implementing the `init` command with basic project scaffolding logic.
