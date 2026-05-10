@@ -27,3 +27,8 @@ Added basic command structure (`--help`, `init`, `status`) and tested it locally
 **Day 6 - May 9, 2026**  
 Added proper error handling for invalid arguments and improved CLI help output.  
 Started implementing the `init` command with basic project scaffolding logic.
+
+
+**Day 7 - May 10, 2026**  
+Completed the `init` command — it now creates the project directory structure and a basic config file.  
+Added unit tests for argument parsing and init logic. Refactored some helper functions for better readability.
