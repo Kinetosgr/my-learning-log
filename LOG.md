@@ -34,6 +34,11 @@ Completed the `init` command — it now creates the project directory structure 
 Added unit tests for argument parsing and init logic. Refactored some helper functions for better readability.
 
 
+**Day 9 - May 12, 2026**  
+Implemented the `run` command with basic execution flow and subprocess handling.  
+Added support for Python's built-in logging module and cleaned up the main entry point.
+
+
 **Day 8 - May 11, 2026**  
 Implemented the `status` command to display current project configuration and health checks.  
 Added JSON config loading and basic validation. Cleaned up the command registry for easier extension.
