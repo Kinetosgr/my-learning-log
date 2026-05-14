@@ -44,6 +44,11 @@ Implemented the `status` command to display current project configuration and he
 Added JSON config loading and basic validation. Cleaned up the command registry for easier extension.
 
 
+**Day 11 - May 14, 2026**  
+Added a new `build` command that assembles the project based on the config file.  
+Implemented basic dependency resolution and created a sample output directory structure. Wrote additional tests for the new command.
+
+
 **Day 10 - May 13, 2026**  
 Added configuration validation and environment variable support to the CLI.  
 Refactored the command handlers into separate modules for better maintainability. Fixed a few edge cases in error handling.
