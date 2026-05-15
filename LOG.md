@@ -52,3 +52,8 @@ Implemented basic dependency resolution and created a sample output directory st
 **Day 10 - May 13, 2026**  
 Added configuration validation and environment variable support to the CLI.  
 Refactored the command handlers into separate modules for better maintainability. Fixed a few edge cases in error handling.
+
+
+**Day 12 - May 15, 2026**  
+Added comprehensive README with installation instructions, usage examples, and command reference.  
+Improved test coverage for the build command and fixed a small bug in config validation.
