@@ -57,3 +57,8 @@ Refactored the command handlers into separate modules for better maintainability
 **Day 12 - May 15, 2026**  
 Added comprehensive README with installation instructions, usage examples, and command reference.  
 Improved test coverage for the build command and fixed a small bug in config validation.
+
+
+**Day 13 - May 16, 2026**  
+Added a new `clean` command to remove build artifacts and temporary files.  
+Implemented plugin system support using entry points and updated all command help texts for consistency.
