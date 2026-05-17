@@ -62,3 +62,8 @@ Improved test coverage for the build command and fixed a small bug in config val
 **Day 13 - May 16, 2026**  
 Added a new `clean` command to remove build artifacts and temporary files.  
 Implemented plugin system support using entry points and updated all command help texts for consistency.
+
+
+**Day 14 - May 17, 2026**  
+Added support for custom plugins via entry points and improved overall error reporting with detailed tracebacks.  
+Refactored the plugin loader for better extensibility and wrote tests for the new plugin system.
