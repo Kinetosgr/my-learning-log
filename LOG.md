@@ -67,3 +67,8 @@ Implemented plugin system support using entry points and updated all command hel
 **Day 14 - May 17, 2026**  
 Added support for custom plugins via entry points and improved overall error reporting with detailed tracebacks.  
 Refactored the plugin loader for better extensibility and wrote tests for the new plugin system.
+
+
+**Day 15 - May 18, 2026**  
+Implemented a template system using Jinja2 for generating new project scaffolds.  
+Added a new `template` command with built-in templates (basic, web, data-science) and improved project initialization flow.
