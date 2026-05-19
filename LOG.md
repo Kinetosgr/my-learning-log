@@ -72,3 +72,8 @@ Refactored the plugin loader for better extensibility and wrote tests for the ne
 **Day 15 - May 18, 2026**  
 Implemented a template system using Jinja2 for generating new project scaffolds.  
 Added a new `template` command with built-in templates (basic, web, data-science) and improved project initialization flow.
+
+
+**Day 16 - May 19, 2026**  
+Added packaging configuration (pyproject.toml + setuptools) so the tool can be installed via pip.  
+Updated README with installation instructions using `pip install -e .` and added a basic setup.py fallback.
