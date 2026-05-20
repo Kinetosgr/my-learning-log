@@ -77,3 +77,8 @@ Added a new `template` command with built-in templates (basic, web, data-science
 **Day 16 - May 19, 2026**  
 Added packaging configuration (pyproject.toml + setuptools) so the tool can be installed via pip.  
 Updated README with installation instructions using `pip install -e .` and added a basic setup.py fallback.
+
+
+**Day 17 - May 20, 2026**  
+Added CI/CD pipeline with GitHub Actions for automated testing and linting.  
+Configured pytest with coverage reporting and added basic workflow for pull requests.
