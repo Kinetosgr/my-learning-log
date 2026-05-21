@@ -82,3 +82,8 @@ Updated README with installation instructions using `pip install -e .` and added
 **Day 17 - May 20, 2026**  
 Added CI/CD pipeline with GitHub Actions for automated testing and linting.  
 Configured pytest with coverage reporting and added basic workflow for pull requests.
+
+
+**Day 18 - May 21, 2026**  
+Expanded test suite with more edge cases for the template system and plugin loader.  
+Added pre-commit hooks for automatic linting (black + ruff) and updated the CI workflow to run them.
