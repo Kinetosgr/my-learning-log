@@ -87,3 +87,8 @@ Configured pytest with coverage reporting and added basic workflow for pull requ
 **Day 18 - May 21, 2026**  
 Expanded test suite with more edge cases for the template system and plugin loader.  
 Added pre-commit hooks for automatic linting (black + ruff) and updated the CI workflow to run them.
+
+
+**Day 19 - May 22, 2026**  
+Added support for configuration profiles (dev, prod, test) and improved command-line flag handling.  
+Refactored the config module to support environment-specific settings and updated documentation accordingly.
