@@ -92,3 +92,8 @@ Added pre-commit hooks for automatic linting (black + ruff) and updated the CI w
 **Day 19 - May 22, 2026**  
 Added support for configuration profiles (dev, prod, test) and improved command-line flag handling.  
 Refactored the config module to support environment-specific settings and updated documentation accordingly.
+
+
+**Day 20 - May 23, 2026**  
+Added a new `doctor` command that performs environment checks and dependency validation.  
+Improved help text formatting across all commands and added usage examples to the main CLI.
