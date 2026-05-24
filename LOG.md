@@ -94,6 +94,10 @@ Added support for configuration profiles (dev, prod, test) and improved command-
 Refactored the config module to support environment-specific settings and updated documentation accordingly.
 
 
+**Day 21 - May 24, 2026**  
+Added shell completion support for bash and zsh.  
+Improved error messages and added more usage examples to the README.
+
 **Day 20 - May 23, 2026**  
 Added a new `doctor` command that performs environment checks and dependency validation.  
 Improved help text formatting across all commands and added usage examples to the main CLI.
