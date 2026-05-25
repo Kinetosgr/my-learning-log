@@ -101,3 +101,8 @@ Improved error messages and added more usage examples to the README.
 **Day 20 - May 23, 2026**  
 Added a new `doctor` command that performs environment checks and dependency validation.  
 Improved help text formatting across all commands and added usage examples to the main CLI.
+
+
+**Day 22 - May 25, 2026**  
+Added support for custom command extensions through plugins and created an example plugin.  
+Improved the overall architecture by separating concerns between core CLI and plugin management.
