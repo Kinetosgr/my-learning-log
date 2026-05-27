@@ -111,3 +111,8 @@ Started setting up release automation with semantic versioning and changelog gen
 **Day 22 - May 25, 2026**  
 Added support for custom command extensions through plugins and created an example plugin.  
 Improved the overall architecture by separating concerns between core CLI and plugin management.
+
+
+**Day 24 - May 27, 2026**  
+Added automatic changelog generation using conventional commits and GitHub release workflow.  
+Refactored the logging system to support different output formats (console, JSON) and improved overall code organization.
