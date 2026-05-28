@@ -116,3 +116,8 @@ Improved the overall architecture by separating concerns between core CLI and pl
 **Day 24 - May 27, 2026**  
 Added automatic changelog generation using conventional commits and GitHub release workflow.  
 Refactored the logging system to support different output formats (console, JSON) and improved overall code organization.
+
+
+**Day 25 - May 28, 2026**  
+Implemented a `version` command that displays the current CLI version and checks for updates.  
+Set up semantic versioning properly and prepared the project for its first public release.
