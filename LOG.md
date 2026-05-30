@@ -123,6 +123,11 @@ Added opt-in anonymous usage analytics and improved command auto-discovery.
 Fixed several edge-case bugs found during testing and updated project dependencies to latest versions.
 
 
+**Day 27 - May 30, 2026**  
+Added comprehensive documentation for all commands using Sphinx-style docstrings.  
+Improved the help system to show detailed examples and started working on a website for the project.
+
+
 **Day 25 - May 28, 2026**  
 Implemented a `version` command that displays the current CLI version and checks for updates.  
 Set up semantic versioning properly and prepared the project for its first public release.
