@@ -131,3 +131,8 @@ Improved the help system to show detailed examples and started working on a webs
 **Day 25 - May 28, 2026**  
 Implemented a `version` command that displays the current CLI version and checks for updates.  
 Set up semantic versioning properly and prepared the project for its first public release.
+
+
+**Day 28 - May 31, 2026**  
+Added support for multiple configuration file formats (JSON + YAML) and a new `config` command for easy management.  
+Improved CLI UX with better formatting and progress indicators for longer operations.
