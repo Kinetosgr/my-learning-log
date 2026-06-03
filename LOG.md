@@ -146,3 +146,8 @@ Improved secret management and added basic encryption for sensitive environment 
 **Day 30 - June 2, 2026**  
 Added a new `monitor` command for real-time log tailing and process monitoring.  
 Implemented background task support using asyncio and significantly improved performance for long-running operations.
+
+
+**Day 31 - June 3, 2026**  
+Added integration tests for the full command pipeline and improved test fixtures.  
+Refactored core modules to use dependency injection for better testability and maintainability.
