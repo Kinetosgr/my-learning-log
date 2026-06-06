@@ -161,3 +161,9 @@ Improved overall CLI performance with caching and began writing the contributing
 **Day 32 - June 4, 2026**  
 Added a new `validate` command to check project configuration, dependencies, and best practices.  
 Improved error messages with actionable suggestions and began writing the plugin development guide.
+
+
+
+**Day 34 - June 6, 2026**  
+Added support for custom output formatters (JSON, YAML, table, rich) across all commands.  
+Began prototyping a TUI (Text User Interface) mode using Textual for interactive workflows.
