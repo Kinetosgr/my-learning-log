@@ -171,3 +171,8 @@ Began prototyping a TUI (Text User Interface) mode using Textual for interactive
 **Day 35 - June 7, 2026**  
 Added a `migrate` command to help users upgrade between CLI versions and improved backward compatibility handling.  
 Enhanced the test suite with property-based testing using Hypothesis for more robust validation.
+
+
+**Day 36 - June 8, 2026**  
+Added internationalization (i18n) support and began translating all user-facing messages.  
+Improved rich formatting and added more visual polish to the TUI prototype.
