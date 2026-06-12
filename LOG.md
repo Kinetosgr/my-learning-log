@@ -191,3 +191,8 @@ Refactored the core architecture to better support multiple projects and improve
 **Day 39 - June 11, 2026**  
 Added a new `template` marketplace with ability to search, install, and update community templates directly from the CLI.  
 Improved plugin system stability and added better error handling for plugin loading.
+
+
+**Day 40 - June 12, 2026**  
+Implemented full support for custom hooks (pre/post command hooks) and added a new `hook` command to manage them.  
+Improved logging system with structured JSON output option and better log rotation.
