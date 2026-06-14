@@ -196,3 +196,8 @@ Improved plugin system stability and added better error handling for plugin load
 **Day 40 - June 12, 2026**  
 Implemented full support for custom hooks (pre/post command hooks) and added a new `hook` command to manage them.  
 Improved logging system with structured JSON output option and better log rotation.
+
+
+**Day 41 - June 14, 2026**  
+Added support for `.env` files and automatic environment variable expansion in all configuration files.  
+Implemented a new `env` command to list, get, and set environment variables used by the tool.
