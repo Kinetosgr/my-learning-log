@@ -247,6 +247,11 @@ Added user profile management and improved the authentication flow in the web da
 Began preparing the project for the first public release (v0.1.0) by updating documentation and cleaning up the codebase.
 
 
+**Day 51 - June 29, 2026**  
+Added an in-app notifications system to the web dashboard and improved task monitoring.  
+Began planning and documenting the roadmap for version 0.2.0.
+
+
 **Day 50 - June 28, 2026**  
 Created a detailed CHANGELOG and finalized preparations for the first public release (v0.1.0).  
 Improved the README significantly with better installation instructions, usage examples, and project overview.
