@@ -255,3 +255,8 @@ Began planning and documenting the roadmap for version 0.2.0.
 **Day 50 - June 28, 2026**  
 Created a detailed CHANGELOG and finalized preparations for the first public release (v0.1.0).  
 Improved the README significantly with better installation instructions, usage examples, and project overview.
+
+
+**Day 52 - July 1, 2026**  
+Added support for scheduled and recurring tasks in the web dashboard.  
+Improved the overall user experience and started implementing the first features from the v0.2.0 roadmap.
