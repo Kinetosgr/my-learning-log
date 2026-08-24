@@ -342,3 +342,10 @@ Continuing the streak. 107 days in — still going!
 
 **Day 108 - August 23, 2026**  
 Continued the streak today. Still going strong toward 120 days!
+
+# My 120-Day Coding Log
+
+Goal: Commit every day for 120 days to earn the Dedicated Coder stamp.
+
+**Day 1 - August 24, 2026**  
+Started a consistent daily coding practice. Today I reviewed basic Git commands and how commits work.
