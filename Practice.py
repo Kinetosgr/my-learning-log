@@ -21,6 +21,11 @@ if __name__ == "__main__":
 
 
 
+# 2026-09-23
+def count_vowels(text: str) -> int:
+    """Count vowels in a string (a, e, i, o, u)."""
+    vowels = set("aeiouAEIOU")
+    return sum(1 for ch in text if ch in vowels)
 # 2026-09-21
 def reverse_string(text: str) -> str:
     """Return the reversed string."""
