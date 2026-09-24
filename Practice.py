@@ -30,3 +30,15 @@ def count_vowels(text: str) -> int:
 def reverse_string(text: str) -> str:
     """Return the reversed string."""
     return text[::-1]
+
+
+# 2026-09-24
+def unique_items(items: list) -> list:
+    """Return unique items while keeping original order."""
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
