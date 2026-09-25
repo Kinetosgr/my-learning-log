@@ -42,3 +42,9 @@ def unique_items(items: list) -> list:
             seen.add(item)
             result.append(item)
     return result
+
+
+# 2026-09-25
+def word_count(text: str) -> int:
+    """Return the number of words in a string."""
+    return len(text.split())
