@@ -48,3 +48,11 @@ def unique_items(items: list) -> list:
 def word_count(text: str) -> int:
     """Return the number of words in a string."""
     return len(text.split())
+
+
+
+
+# 2026-09-27
+def clamp(value: float, low: float, high: float) -> float:
+    """Keep value inside the range [low, high]."""
+    return max(low, min(high, value))
