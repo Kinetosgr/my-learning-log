@@ -56,3 +56,12 @@ def word_count(text: str) -> int:
 def clamp(value: float, low: float, high: float) -> float:
     """Keep value inside the range [low, high]."""
     return max(low, min(high, value))
+
+
+
+# 2026-09-28
+def average(numbers: list[float]) -> float:
+    """Return the arithmetic mean of a non-empty list."""
+    if not numbers:
+        raise ValueError("numbers must not be empty")
+    return sum(numbers) / len(numbers)
