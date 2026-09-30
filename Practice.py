@@ -65,3 +65,9 @@ def average(numbers: list[float]) -> float:
     if not numbers:
         raise ValueError("numbers must not be empty")
     return sum(numbers) / len(numbers)
+
+
+# 2026-09-30
+def title_case(text: str) -> str:
+    """Capitalize the first letter of each word."""
+    return " ".join(word.capitalize() for word in text.split())
