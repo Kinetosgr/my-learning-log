@@ -71,3 +71,10 @@ def average(numbers: list[float]) -> float:
 def title_case(text: str) -> str:
     """Capitalize the first letter of each word."""
     return " ".join(word.capitalize() for word in text.split())
+
+
+# 2026-10-01
+def is_palindrome(text: str) -> bool:
+    """Return True if the string reads the same forwards and backwards."""
+    cleaned = "".join(ch.lower() for ch in text if ch.isalnum())
+    return cleaned == cleaned[::-1]
