@@ -78,3 +78,15 @@ def is_palindrome(text: str) -> bool:
     """Return True if the string reads the same forwards and backwards."""
     cleaned = "".join(ch.lower() for ch in text if ch.isalnum())
     return cleaned == cleaned[::-1]
+
+
+
+# 2026-10-04
+def factorial(n: int) -> int:
+    """Return n! for a non-negative integer."""
+    if n < 0:
+        raise ValueError("n must be non-negative")
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
