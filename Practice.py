@@ -90,3 +90,15 @@ def factorial(n: int) -> int:
     for i in range(2, n + 1):
         result *= i
     return result
+
+
+# 2026-10-05
+def flatten(items: list) -> list:
+    """Flatten one level of nested lists."""
+    result = []
+    for item in items:
+        if isinstance(item, list):
+            result.extend(item)
+        else:
+            result.append(item)
+    return result
