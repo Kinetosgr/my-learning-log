@@ -102,3 +102,11 @@ def flatten(items: list) -> list:
         else:
             result.append(item)
     return result
+
+
+# 2026-10-06
+def chunk(items: list, size: int) -> list[list]:
+    """Split a list into groups of the given size."""
+    if size <= 0:
+        raise ValueError("size must be positive")
+    return [items[i:i + size] for i in range(0, len(items), size)]
