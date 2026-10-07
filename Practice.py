@@ -110,3 +110,16 @@ def chunk(items: list, size: int) -> list[list]:
     if size <= 0:
         raise ValueError("size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+
+# 2026-10-07
+def max_of(numbers: list[float]) -> float:
+    """Return the largest number in a non-empty list."""
+    if not numbers:
+        raise ValueError("numbers must not be empty")
+    best = numbers[0]
+    for n in numbers[1:]:
+        if n > best:
+            best = n
+    return best
