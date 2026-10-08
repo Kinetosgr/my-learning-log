@@ -123,3 +123,12 @@ def max_of(numbers: list[float]) -> float:
         if n > best:
             best = n
     return best
+
+
+
+# 2026-10-08
+def slugify(text: str) -> str:
+    """Turn a string into a URL-friendly slug."""
+    cleaned = "".join(ch.lower() if ch.isalnum() else "-" for ch in text)
+    parts = [part for part in cleaned.split("-") if part]
+    return "-".join(parts)
