@@ -132,3 +132,12 @@ def slugify(text: str) -> str:
     cleaned = "".join(ch.lower() if ch.isalnum() else "-" for ch in text)
     parts = [part for part in cleaned.split("-") if part]
     return "-".join(parts)
+
+
+
+# 2026-10-09
+def sum_range(start: int, end: int) -> int:
+    """Return the sum of integers from start to end, inclusive."""
+    if end < start:
+        raise ValueError("end must be >= start")
+    return sum(range(start, end + 1))
