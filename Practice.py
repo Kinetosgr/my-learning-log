@@ -141,3 +141,8 @@ def sum_range(start: int, end: int) -> int:
     if end < start:
         raise ValueError("end must be >= start")
     return sum(range(start, end + 1))
+
+# 2026-10-11
+def count_occurrences(items: list, target) -> int:
+    """Return how many times target appears in the list."""
+    return sum(1 for item in items if item == target)
