@@ -146,3 +146,12 @@ def sum_range(start: int, end: int) -> int:
 def count_occurrences(items: list, target) -> int:
     """Return how many times target appears in the list."""
     return sum(1 for item in items if item == target)
+
+
+# 2026-10-12
+def rotate_left(items: list, steps: int = 1) -> list:
+    """Rotate the list to the left by the given number of steps."""
+    if not items:
+        return []
+    steps = steps % len(items)
+    return items[steps:] + items[:steps]
