@@ -162,3 +162,9 @@ def rotate_left(items: list, steps: int = 1) -> list:
 def starts_with(text: str, prefix: str) -> bool:
     """Return True if text starts with the given prefix."""
     return text.startswith(prefix)
+
+
+# 2026-10-13
+def starts_with(text: str, prefix: str) -> bool:
+    """Return True if text starts with the given prefix."""
+    return text.startswith(prefix)
