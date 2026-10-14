@@ -168,3 +168,8 @@ def starts_with(text: str, prefix: str) -> bool:
 def starts_with(text: str, prefix: str) -> bool:
     """Return True if text starts with the given prefix."""
     return text.startswith(prefix)
+
+# 2026-10-14
+def ends_with(text: str, suffix: str) -> bool:
+    """Return True if text ends with the given suffix."""
+    return text.endswith(suffix)
