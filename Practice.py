@@ -173,3 +173,8 @@ def starts_with(text: str, prefix: str) -> bool:
 def ends_with(text: str, suffix: str) -> bool:
     """Return True if text ends with the given suffix."""
     return text.endswith(suffix)
+
+# 2026-10-15
+def contains(text: str, substring: str) -> bool:
+    """Return True if the substring is found in text."""
+    return substring in text
