@@ -178,3 +178,8 @@ def ends_with(text: str, suffix: str) -> bool:
 def contains(text: str, substring: str) -> bool:
     """Return True if the substring is found in text."""
     return substring in text
+
+# 2026-10-16
+def to_upper(text: str) -> str:
+    """Return the string in uppercase."""
+    return text.upper()
