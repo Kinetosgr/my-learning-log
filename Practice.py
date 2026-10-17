@@ -183,3 +183,9 @@ def contains(text: str, substring: str) -> bool:
 def to_upper(text: str) -> str:
     """Return the string in uppercase."""
     return text.upper()
+
+
+# 2026-10-17
+def to_lower(text: str) -> str:
+    """Return the string in lowercase."""
+    return text.lower()
