@@ -189,3 +189,8 @@ def to_upper(text: str) -> str:
 def to_lower(text: str) -> str:
     """Return the string in lowercase."""
     return text.lower()
+
+# 2026-10-18
+def strip_whitespace(text: str) -> str:
+    """Remove leading and trailing whitespace."""
+    return text.strip()
