@@ -194,3 +194,9 @@ def to_lower(text: str) -> str:
 def strip_whitespace(text: str) -> str:
     """Remove leading and trailing whitespace."""
     return text.strip()
+
+
+# 2026-10-19
+def replace_all(text: str, old: str, new: str) -> str:
+    """Replace all occurrences of old with new."""
+    return text.replace(old, new)
