@@ -200,3 +200,11 @@ def strip_whitespace(text: str) -> str:
 def replace_all(text: str, old: str, new: str) -> str:
     """Replace all occurrences of old with new."""
     return text.replace(old, new)
+
+# 2026-10-20
+def first_index(items: list, target) -> int | None:
+    """Return the index of the first occurrence of target, or None if missing."""
+    try:
+        return items.index(target)
+    except ValueError:
+        return None
