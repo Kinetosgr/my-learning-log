@@ -208,3 +208,12 @@ def first_index(items: list, target) -> int | None:
         return items.index(target)
     except ValueError:
         return None
+
+
+# 2026-10-21
+def last_index(items: list, target) -> int | None:
+    """Return the index of the last occurrence of target, or None if missing."""
+    for i in range(len(items) - 1, -1, -1):
+        if items[i] == target:
+            return i
+    return None
