@@ -217,3 +217,10 @@ def last_index(items: list, target) -> int | None:
         if items[i] == target:
             return i
     return None
+
+
+
+# 2026-10-22
+def is_empty(items: list) -> bool:
+    """Return True if the list has no elements."""
+    return len(items) == 0
