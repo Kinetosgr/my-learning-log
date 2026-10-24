@@ -230,3 +230,9 @@ def is_empty(items: list) -> bool:
 def list_length(items: list) -> int:
     """Return the number of elements in the list."""
     return len(items)
+
+
+# 2026-10-24
+def join_with(items: list[str], separator: str = ", ") -> str:
+    """Join a list of strings with the given separator."""
+    return separator.join(items)
