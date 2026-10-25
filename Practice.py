@@ -236,3 +236,9 @@ def list_length(items: list) -> int:
 def join_with(items: list[str], separator: str = ", ") -> str:
     """Join a list of strings with the given separator."""
     return separator.join(items)
+
+
+# 2026-10-25
+def split_by(text: str, separator: str = " ") -> list[str]:
+    """Split a string into a list using the given separator."""
+    return text.split(separator)
