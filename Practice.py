@@ -242,3 +242,15 @@ def join_with(items: list[str], separator: str = ", ") -> str:
 def split_by(text: str, separator: str = " ") -> list[str]:
     """Split a string into a list using the given separator."""
     return text.split(separator)
+
+
+# 2026-10-26
+def remove_duplicates(items: list) -> list:
+    """Return a new list with duplicates removed, keeping original order."""
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
