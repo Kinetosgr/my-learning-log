@@ -254,3 +254,10 @@ def remove_duplicates(items: list) -> list:
             seen.add(item)
             result.append(item)
     return result
+
+
+
+# 2026-10-27
+def reverse_list(items: list) -> list:
+    """Return a new list with the elements in reverse order."""
+    return list(reversed(items))
