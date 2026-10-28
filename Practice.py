@@ -261,3 +261,10 @@ def remove_duplicates(items: list) -> list:
 def reverse_list(items: list) -> list:
     """Return a new list with the elements in reverse order."""
     return list(reversed(items))
+
+
+
+# 2026-10-28
+def sort_numbers(numbers: list[float]) -> list[float]:
+    """Return a new list of numbers sorted in ascending order."""
+    return sorted(numbers)
