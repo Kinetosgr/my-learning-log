@@ -268,3 +268,10 @@ def reverse_list(items: list) -> list:
 def sort_numbers(numbers: list[float]) -> list[float]:
     """Return a new list of numbers sorted in ascending order."""
     return sorted(numbers)
+
+
+
+# 2026-10-29 (second)
+def clamp_value(value: float, low: float, high: float) -> float:
+    """Return value clamped between low and high."""
+    return max(low, min(value, high))
