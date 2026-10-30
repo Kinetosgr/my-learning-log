@@ -275,3 +275,9 @@ def sort_numbers(numbers: list[float]) -> list[float]:
 def clamp_value(value: float, low: float, high: float) -> float:
     """Return value clamped between low and high."""
     return max(low, min(value, high))
+
+
+# 2026-10-30
+def is_positive(number: float) -> bool:
+    """Return True if the number is greater than zero."""
+    return number > 0
