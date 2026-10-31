@@ -281,3 +281,9 @@ def clamp_value(value: float, low: float, high: float) -> float:
 def is_positive(number: float) -> bool:
     """Return True if the number is greater than zero."""
     return number > 0
+
+
+# 2026-10-31
+def is_negative(number: float) -> bool:
+    """Return True if the number is less than zero."""
+    return number < 0
